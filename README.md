@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import countFalsy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-falsy@deno/mod.js';
+import countFalsy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-falsy@v0.1.1-deno/mod.js';
 ```
 
 #### countFalsy( x )
@@ -88,7 +88,7 @@ var out = countFalsy( x );
 
 ```javascript
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-bernoulli@deno/mod.js';
-import countFalsy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-falsy@deno/mod.js';
+import countFalsy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-falsy@v0.1.1-deno/mod.js';
 
 var x = bernoulli( 100, 0.5, {
     'dtype': 'generic'
