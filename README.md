@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import countFalsy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-falsy@esm/index.mjs';
+import countFalsy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-falsy@v0.2.0-esm/index.mjs';
 ```
 
 #### countFalsy( x )
@@ -93,7 +93,7 @@ var out = countFalsy( x );
 <script type="module">
 
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-bernoulli@esm/index.mjs';
-import countFalsy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-falsy@esm/index.mjs';
+import countFalsy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-falsy@v0.2.0-esm/index.mjs';
 
 var x = bernoulli( 100, 0.5, {
     'dtype': 'generic'
